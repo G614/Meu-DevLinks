@@ -14,12 +14,13 @@ function toggleMode() {
   // substituir a imagem
   if (html.classList.contains("light")) {
     // se tiver light mode, adicionar a imagem light
-    img.setAttribute(
-      "src",
-      "./assets/assets/img-devlinks-light.jpg"
-    )
+    img.setAttribute("src", "./assets/assets/img-devlinks-light.jpg")
   } else {
     // set tiver sem light mode, manter a imagem normal
-    img.setAttribute('src', "./assets/assets/img-devlinks-dark.jpg")
+    img.setAttribute("src", "./assets/assets/img-devlinks-dark.jpg")
+    img.setAttribute(
+      "alt",
+      "Foto de Gabriel Ribeiro sorrindo, usando óculos escuro, barba e camisa cinza claro, e fundo amarelo."
+    )
   }
 }
